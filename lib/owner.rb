@@ -18,6 +18,11 @@ class Owner
     "I am a human."
   end
   
+  def number_of_owners
+    owner.count
+  end
+  
+  
   def name
     @name
   end
