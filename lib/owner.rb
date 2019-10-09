@@ -12,4 +12,7 @@ class Owner
   def species
     @species = "human"
   end
+  
+  def name
+    @name
 end
