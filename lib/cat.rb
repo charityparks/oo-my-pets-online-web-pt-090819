@@ -10,14 +10,9 @@ attr_reader :name
     @owner = owner
     @mood = mood
     @@all << self
-    save
   end
   
-  def save
-    @@all << self
-  end
-  
-  def self.all
+   def self.all
     @@all
   end
 end
