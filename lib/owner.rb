@@ -50,4 +50,7 @@ class Owner
   def buy_dog(zoe)
     Dog.new(zoe, self)
     end
+    
+  def walk_dogs(mood)
+  end
 end
