@@ -23,7 +23,8 @@ class Owner
   end
   
   def self.reset_all
-    owner.reset_all
+    @@all.clear
+  end
   
   def name
     @name
