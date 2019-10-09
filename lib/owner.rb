@@ -59,4 +59,23 @@ class Owner
   def feed_cats
     cats.each{|cat|cat.mood = "happy"}
   end
+  
+  def sell_pets
+    sell_cats
+    sell_dogs
+   end
+   
+  def sell_cats
+    cats.each do |cat|
+    cat.mood = "nervous" 
+    cat.owner = nil 
+  end
+  end
+  
+  def sell_dogs
+    dogs.each do |dog|
+      dog.mood = "nervous"
+      dog.owner = nil
+    end
+  end
 end
