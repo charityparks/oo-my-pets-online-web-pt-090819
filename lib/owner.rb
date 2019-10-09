@@ -22,7 +22,8 @@ class Owner
     @@all.length
   end
   
-  
+  def reset_all
+    
   
   def name
     @name
