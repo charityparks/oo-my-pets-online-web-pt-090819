@@ -51,6 +51,6 @@ class Owner
     Dog.new(zoe, self)
     end
     
-  def walk_dogs(mood)
+  def walk_dogs
   end
 end
