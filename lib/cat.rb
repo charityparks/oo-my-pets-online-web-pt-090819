@@ -4,7 +4,7 @@ end
 
 @@all = []
   
-attr_accessor :name
+attr_accessor :
 
   def initialize(name, owner)
     @name = name
