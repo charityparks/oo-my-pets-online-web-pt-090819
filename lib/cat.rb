@@ -2,7 +2,7 @@ class Cat
 
 @@all = []
   
-attr_accessor :name, :owner
+attr_accessor :name
 
   def initialize(name, owner)
     @name = name
