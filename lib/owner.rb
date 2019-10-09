@@ -18,8 +18,8 @@ class Owner
     "I am a human."
   end
   
-  def number_of_owners
-    owner.count
+  def self.count
+    
   end
   
   
